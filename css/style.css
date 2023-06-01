@@ -68,3 +68,12 @@ body {
 .about-me {
  max-width: 500px;
 }
+.nav{
+    padding-right: 1em;
+}
+#about-me h3 {
+    color:#ff764f;
+}
+#contact-info h3 {
+    color:#ff764f;
+}
