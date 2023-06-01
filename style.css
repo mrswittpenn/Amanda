@@ -1,0 +1,79 @@
+/* 
+coral: #ff764f
+red: #f4170c
+olive: #d4c97f
+blue: #b9cdc2
+white: #e8ecde
+dark grey/green: #453d1d
+*/
+body {
+    background-image: url(../images/background.PNG);
+    background-size: 50% 50%;
+}
+#hero {
+    background-color: #e8ecde;   
+}
+#hero h1{
+    font-family: 'shadows into light two', cursive;
+}
+#hero h2 {
+    color: #ff764f;
+}
+.profile-img {
+    border-radius: 50%;
+}
+.about-me {
+    padding: 2em;
+}
+.contact-info {
+    padding: 2em;
+}
+#nav-buttons .item {
+    border: 2px solid #ff764f;
+    border-radius: 50%;
+    padding: 1em;
+    color: #e8ecde;
+    font-family: 'Shadows Into Light Two', cursive;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    
+    
+}
+#nav-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    
+}
+#nav-buttons .row {
+    margin: 0;
+    justify-content: center;
+}
+#nav-buttons a {
+    color: #453d1d;
+    text-decoration: none;
+    margin: auto;
+    padding: 50px;
+}
+#nav-buttons a:hover{
+    color:black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#about-me{
+    display: flex;
+    justify-content: center;
+}
+.about-me {
+ max-width: 500px;
+}
+.nav{
+    padding-right: 1em;
+}
+#about-me h3 {
+    color:#ff764f;
+}
+#contact-info h3 {
+    color:#ff764f;
+}
